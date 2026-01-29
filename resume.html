@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume of Lenn Drijkoningen</title>
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+    <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+@charset "utf-8";
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+body{
+  font-family: 'Open Sans', Arial, Tahoma;
+  font-weight: 400;
+  color: #363636;
+  background: #334960;
+}
+blockquote {
+  font-size: 1em;
+}
+
+.container{
+  margin-top: 80px;
+  margin-bottom: 15px;
+  background: #fff;
+}
+
+#photo-header{
+  margin-top: -75px;
+}
+#photo{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 5px;
+  background: #334960;
+  display: inline-block;
+}
+#photo img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#text-header h1{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+#text-header h1::first-line{
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.5em;
+}
+#text-header h1 span{
+  color: #334960;
+  opacity: 0.7;
+}
+#text-header h1 sup{
+  opacity: 0.5;
+}
+#text-header:after{
+  width: 100%;
+  height: 3px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 15px;
+  content: '';
+  display: block;
+}
+
+.box{
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+.box h2{
+  color: #227c74;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#awards,
+#education{
+  margin-top: 20px;
+  margin-bottom: 0;
+  position: relative;
+  padding: 1em 0;
+  list-style: none;
+}
+#awards:before,
+#education:before {
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 35px;
+  top: 0;
+  content: ' ';
+  display: block;
+  background: #32475c;
+  background: -moz-linear-gradient(top,  #ffffff 0%, #32475c 7%, #32475c 89%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#32475c), color-stop(89%,#32475c), color-stop(100%,#ffffff));
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -o-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -ms-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: linear-gradient(to bottom,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+#awards li,
+#education li{
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  float: left;
+}
+#awards .year,
+#education .year{
+  width: 14%;
+  background: #fff;
+  padding: 10px;
+  font-weight: 700;
+  display: inline-block;
+}
+#awards .description,
+#education .description{
+  width: 83%;
+  display: inline-block;
+  background: #eee;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+#awards .description:after,
+#education .description:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  right: 0;
+  left: -16px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #eee;
+  border-width: 8px;
+  pointer-events: none;
+}
+#awards .description h3,
+#education .description h3{
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+#awards .description p,
+#education .description p{
+  margin-top: 5px;
+  padding: 0;
+}
+
+.job{
+  margin-bottom: 15px;
+}
+.job .details {
+  margin-left: 3%;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.job .where{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .year{
+  opacity: 0.7;
+}
+.job .profession{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .description{
+  line-height: 1.5em;
+}
+.job .highlights{
+  padding: 5px 0;
+  font-weight: bold;
+}
+.job .job-details {
+  padding-left: 5%;
+  width: 100%;
+}
+.publication {
+  margin-bottom: 0;
+}
+.publication .name{
+  font-size: 1em;
+  font-weight: bold;
+}
+.publication .year{
+    opacity: 0.7;
+}
+.publication p{
+  margin: 0;
+  padding-top: 10px;
+}
+
+.contact-item{
+  width: 100%;
+  float: left;
+}
+.contact-item .icon{
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #32475c;
+  background: #eee;
+}
+.contact-item:last-child .icon{
+  border-bottom: none;
+}
+.contact-item .title{
+  width: 80%;
+  width: calc(100% - 55px);
+  font-weight: 700;
+  opacity: 0.9;
+}
+.contact-item .title.only{
+  margin-top: 10px;
+}
+.contact-item .description{
+  width: 80%;
+  width: calc(100% - 55px);
+  color: #334960;
+}
+
+.item-interests,
+.item-skills{
+  height: 30px;
+  color: #334960;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.interest,
+.skill{
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  background: #32475c;
+  position: relative;
+  font-size: .85em;
+}
+.skill-level {
+  background-color: #227c74;
+  border-radius: 4px;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: .75em;
+  position: absolute;
+  margin: 1px 10px;
+}
+
+#language-skills .skill{
+  margin: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+    </style>
+    <style type="text/css" media="print">
+    body {
+  font-size: .95em;
+  -webkit-print-color-adjust: exact;
+}
+
+a[href]:after {
+  content: none !important;
+}
+
+#photo{
+  display: none;
+}
+
+.box {
+  margin-bottom: -10px;
+}
+
+blockquote,
+#education,
+#awards,
+.contact-item,
+.publication,
+.skills,
+.interests {
+  page-break-inside: avoid;
+}
+
+.col-sm-5{
+  width: 40%;
+  padding: 0 15px;
+}
+
+.col-sm-7{
+  width: 60%;
+  padding: 0 15px;
+}
+
+.skills .col-sm-offset-1,
+.interests .col-sm-offset-1{
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+#education {
+  margin: 0;
+  margin-bottom: -20px;
+}
+#awards:before,
+#education:before {
+  background: none;
+}
+
+#awards .description,
+#education .description,
+.job .details {
+  border: 1px solid #eee;
+}
+.publication,
+.publication .panel-heading,
+.publication .name{
+  margin: 0;
+  padding: 0 5px;
+  border: none;
+}
+.publication .panel-body {
+  padding: 0 10px;
+  margin: 0;
+}
+
+.badge {
+  margin: 0;
+}
+
+.list-group-item{
+  border: none;
+  margin: 0;
+  padding: 5px 15px;
+}
+.list-group-item:after{
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 0;
+  left: -1px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #999;
+  border-width: 4px;
+  pointer-events: none;
+ }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img src=".&#x2F;profile.jpg" alt="avatar">
+            </div>
+            <div id="text-header" >
+              <h1>Lenn Drijkoningen<br><span>Software Engineer</span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <!-- ABOUT ME -->
+          <div class="box">
+            <h2><i class="fas fa-user ico"></i> About</h2>
+            <p>Lenn is a motivated all-round developer with a passion for trying and learning new technologies. He likes getting his hands dirty with front-end development but is also not afraid to lend a hand in a back-end project. Due to his education in industrial engineering, Lenn has a wide background in programming. As an engineer he also has a great capacity for analytical thinking and problem solving. These skills are invaluable in larger software projects.</p>
+          </div>
+          <!-- WORK EXPERIENCE -->
+          <div class="box">
+            <h2><i class= "fas fa-suitcase ico"></i> Work Experience</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      KBC
+                    </div>
+                    <div class="year">March 2025 – Present</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Senior Front-End Developer</div>
+                    <div class="description">
+                      Working on the internal MyKate application for KBC employees. The application currently being used is a result of a POC and therefor has accumulated a lot technical debt. The goal is to rewrite the application from scratch while following the internal programming guidelines, design system and Figma designs as closely as possible. Also setting up a PWA version of the application to replace the end-of-life ionic ionic application.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Rewriting entire application from scratch using Angular</li>
+                        <li class="list-group-item">Collaborating with designers to ensure the application follows the Figma designs</li>
+                        <li class="list-group-item">Improving existing features based on user feedback</li>
+                        <li class="list-group-item">Setup of first PWA for internal use at KBC</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      SMALS
+                    </div>
+                    <div class="year">March 2024 – March 2025</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Senior Front-end Developer</div>
+                    <div class="description">
+                      Managed applications eMohm and eWZC used in elderly care by the Flemish government. The applications were outdated in terms of Angular version and visual appearance. Both applications, eMohm and eWZC, have been rewritten to the latest Angular version and conform to the most recent Flanders styleguide. All tests have been migrated.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Upgrading the Angular versions of these applications</li>
+                        <li class="list-group-item">Implementing front-end tooling such as Prettier and linting</li>
+                        <li class="list-group-item">Adapting the style to the most recent Flanders styleguide</li>
+                        <li class="list-group-item">Adding new features</li>
+                        <li class="list-group-item">Migrating from Selenium tests to Cypress</li>
+                        <li class="list-group-item">Expanding Cypress tests</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      KBC
+                    </div>
+                    <div class="year">June 2023 – December 2024</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Senior Front-End Developer</div>
+                    <div class="description">
+                      Worked on MyKate, an in-house application for KBC employees. The latest addition was the HR section, allowing for job vacancy creation, candidate screening, and job application submission. Achieved a successful production release of MyKate featuring a more comprehensive HR section beyond the minimum viable product (MVP).
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Developing new pages</li>
+                        <li class="list-group-item">Creating both dumb and smart components</li>
+                        <li class="list-group-item">Integrating new pages and components with the ngrx store</li>
+                        <li class="list-group-item">Training and supporting new team members</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      MijnGezondheid
+                    </div>
+                    <div class="year">April 2023 – June 2023</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Front-end Developer</div>
+                    <div class="description">
+                      Mijn Gezondheid is the government's platform for health-related matters for Belgian citizens. Developed a design system using Storybook for documentation and StencilJS for components to ensure consistency and third-party integration.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Setup Storybook for documentation</li>
+                        <li class="list-group-item">Building basic components</li>
+                        <li class="list-group-item">Defining styles</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      KBC
+                    </div>
+                    <div class="year">February 2020 – March 2022</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Front-end developer</div>
+                    <div class="description">
+                      As part of the core team, responsible for managing, maintaining, and updating in-house Angular libraries aligned with the design system. Improved the quality and consistency of user interfaces and delivered better results for clients.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Writing testing wrappers for existing components</li>
+                        <li class="list-group-item">Updating and maintaining existing components</li>
+                        <li class="list-group-item">Writing new components</li>
+                        <li class="list-group-item">Library ownership</li>
+                        <li class="list-group-item">Writing schematics and build tools</li>
+                        <li class="list-group-item">Angular migrations on library level</li>
+                        <li class="list-group-item">Writing documentation for consumers</li>
+                        <li class="list-group-item">Writing an efficiency dashboard fed by a bitbucket scraper</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      The Sniffers
+                    </div>
+                    <div class="year">October 2019 – February 2020</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Front-end developer</div>
+                    <div class="description">
+                      The Sniffers is a global service provider in emission reductions and pipeline integrity. Worked on the SFEMP application, an Angular 8 application, that monitors sites and installations for emissions.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Prepare the application for release of version 4.0</li>
+                        <li class="list-group-item">Add new core features</li>
+                        <li class="list-group-item">Improve existing components for useability and accesibility</li>
+                        <li class="list-group-item">Increase the speed of the application</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Engie Services Zuid
+                    </div>
+                    <div class="year">January 2019 – April 2019</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Front-end developer</div>
+                    <div class="description">
+                      Contributed to a solution for creating and managing IOT infrastructures in buildings and sites, utilizing an Nrwl/NX mono repo with Angular 7+ front-end and a Nest API gateway. Responsible for building the client application and the Nest API.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Building the client application</li>
+                        <li class="list-group-item">Building the Nest API for connecting to the back-end</li>
+                        <li class="list-group-item">Coaching and guidance of other junior front-end developers</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Kind En Gezin
+                    </div>
+                    <div class="year">March 2018 – November 2018</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Front-end developer</div>
+                    <div class="description">
+                      Developed 'Kariboe', a new Angular 6 application with a Spring Boot back-end, used to pay doctors providing services for 'Kind&Gezin'. The first version of the application was ready to be deployed to production.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Development of a front-end single page application in Angular</li>
+                        <li class="list-group-item">Application built up out of modules for dynamism, easier development, and expansion</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Nike
+                    </div>
+                    <div class="year">November 2016 – February 2018</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Front-end developer</div>
+                    <div class="description">
+                      Responsible for rewriting several internal JSP applications into the Angular framework to improve efficiency and maintenance. Several functions have been converted and new applications created.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Create Angular application to replace old JSP applications</li>
+                        <li class="list-group-item">Create a spring-boot gateway to communicate between legacy systems and the angular application</li>
+                        <li class="list-group-item">Create new applications in angular such as absence planner and monitoring tools</li>
+                        <li class="list-group-item">Adapting and enhancing legacy applications written in JAVA EE</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Lidl
+                    </div>
+                    <div class="year">October 2016 – October 2016</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Front-End Developer</div>
+                    <div class="description">
+                      Contributed to the creation of an internal digital magazine accessible only for employees, utilizing Angular2.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Front-end development in Angular2</li>
+                        <li class="list-group-item">Creation of new components</li>
+                        <li class="list-group-item">Adaptation and improvement of existing components</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Qompium
+                    </div>
+                    <div class="year">August 2014 – October 2016</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">CTO &amp; Co-Founder</div>
+                    <div class="description">
+                      Co-founded a start-up to commercialize a heart rhythm disorder detection smartphone application developed during a master's thesis. The goal was to transform the standalone application into a complete platform for cardiologists and patients.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">iPhone development</li>
+                        <li class="list-group-item">Android development</li>
+                        <li class="list-group-item">Windows Phone Development</li>
+                        <li class="list-group-item">Signal processing</li>
+                        <li class="list-group-item">Front-end Maintenance</li>
+                        <li class="list-group-item">Company Presentations</li>
+                        <li class="list-group-item">Supervision over an Android freelancer and Junior Android Developer (last 3 months)</li>
+                        <li class="list-group-item">Aiding in the back-end development</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Ziekenhuis Oost-Limburg
+                    </div>
+                    <div class="year">February 2014 – July 2014</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">All-Round Developer</div>
+                    <div class="description">
+                      Worked in the Mobile Health department, providing technical solutions for challenges and projects.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Further refinement of master thesis results (smartphone application and signal processing)</li>
+                        <li class="list-group-item">Supervising and helping new master and bachelor students with their theses</li>
+                        <li class="list-group-item">Aiding Phd students and clinicians by providing technical solutions for their studies</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Khlim Onderzoekscentrum
+                    </div>
+                    <div class="year">June 2013 – August 2013</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">PHP Developer</div>
+                    <div class="description">
+                      Refined the eHealth integration and optimized general functions of the LISTEL vzw platform following bachelor thesis work. Resulted in a more efficient and user-friendly platform.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Refinement of the eHealth integration</li>
+                        <li class="list-group-item">Optimization of already existing general functions (forms, messaging...)</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+          <!-- CONTACT -->
+          <div class="box clearfix">
+            <h2><i class="fas fa-bullseye ico"></i> Contact</h2>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-map-marker fa-fw"></span></div>
+              <div class="title pull-right">Schietboomstraat 8</div>
+              <div class="title  pull-right">As 3665 BE</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-phone fa-fw"></span></div>
+              <div class="title only pull-right">+32 499 40 44 00</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right"><a href="mailto:lenn.drijkoningen@outlook.com" target="_blank">lenn.drijkoningen@outlook.com</a></div>
+            </div>
+          </div>
+          <!-- EDUCATION -->
+          <div class="box">
+            <h2><i class="fas fa-university ico"></i> Education</h2>
+            <ul id="education" class="clearfix">
+              <li>
+                <div class="year pull-left"> 2014</div>
+                <div class="description pull-right">
+                  <h3>Universiteit Hasselt</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Master&#39;s </p>
+                  <p>Industrial Sciences</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left"> 2013</div>
+                <div class="description pull-right">
+                  <h3>Katholieke Hogeschool Limburg</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Bachelor&#39;s</p>
+                  <p>Industrial Sciences</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- SKILLS -->
+          <div class="box">
+            <h2><i class="fas fa-tasks ico"></i> Skills</h2>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Frontend
+                  <span class="skill-level">Senior</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Angular</span>
+                <span class= "skill badge">JavaScript/TypeScript</span>
+                <span class= "skill badge">SCSS / CSS / BEM / Styled Components</span>
+                <span class= "skill badge">HTML 5</span>
+                <span class= "skill badge">JSON</span>
+                <span class= "skill badge">RxJS / Redux / ngrx </span>
+                <span class= "skill badge">NodeJS / NPM / Yarn</span>
+                <span class= "skill badge">Storybook</span>
+                <span class= "skill badge">Stenciljs / lit</span>
+                <span class= "skill badge">Bootstrap / Material Design</span>
+                <span class= "skill badge">PHP</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Backend
+                  <span class="skill-level">Junior</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Springboot</span>
+                <span class= "skill badge">Java</span>
+                <span class= "skill badge">Maven</span>
+                <span class= "skill badge">REST</span>
+                <span class= "skill badge">C#</span>
+                <span class= "skill badge">C++</span>
+                <span class= "skill badge">Python</span>
+                <span class= "skill badge">Objective-C</span>
+                <span class= "skill badge">XAML</span>
+                <span class= "skill badge">MongoDB</span>
+                <span class= "skill badge">PostgreSQL</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Mobile Development
+                  <span class="skill-level">Intermediate</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Angular PWA</span>
+                <span class= "skill badge">Android (Java)</span>
+                <span class= "skill badge">iOS (Swift/Objective-C)</span>
+                <span class= "skill badge">Windows Mobile (C#)</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Methodologies &amp; Concepts
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Agile</span>
+                <span class= "skill badge">Scrum</span>
+                <span class= "skill badge">Unit testing</span>
+                <span class= "skill badge">Design patterns</span>
+                <span class= "skill badge">Object Oriented Programming (OO)</span>
+                <span class= "skill badge">Microservices</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Tools &amp; Technologies
+                  
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">IntelliJ IDEA</span>
+                <span class= "skill badge">Visual Studio Code</span>
+                <span class= "skill badge">Xcode</span>
+                <span class= "skill badge">Cypress</span>
+                <span class= "skill badge">Confluence</span>
+                <span class= "skill badge">Jira</span>
+                <span class= "skill badge">Git</span>
+                <span class= "skill badge">Jenkins</span>
+                <span class= "skill badge">Matlab</span>
+                <span class= "skill badge">Adobe Illustrator</span>
+                <span class= "skill badge">Adobe Photoshop</span>
+                <span class= "skill badge">Google Analytics</span>
+                <span class= "skill badge">MS Visio</span>
+                <span class= "skill badge">MS Office</span>
+                <span class= "skill badge">bash</span>
+                <span class= "skill badge">Mac OS X</span>
+                <span class= "skill badge">Copilot</span>
+              </div>
+            </div>
+          </div>
+          <!-- PUBLICATIONS -->
+          <div class="box">
+            <h2><i class="fas fa-book ico"></i> Publications</h2>
+            <div class="publication panel panel-default">
+              <div class="panel-heading">
+                <div class="name panel-title">Validation of a Smartphone-based Photoplethysmographic Beat Detection Algorithm for Normal and Ectopic Complexes</div>
+              </div>
+              <div class="panel-body">
+                <div class="publisher"><i class= "fas fa-bookmark ico"></i> Cinc 2014</div>
+                <div class="year">07 September  2014</div>
+                <div class="address">
+                  <a href="https:&#x2F;&#x2F;dblp.org&#x2F;rec&#x2F;conf&#x2F;cinc&#x2F;DrijkoningenLAL14" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;dblp.org&#x2F;rec&#x2F;conf&#x2F;cinc&#x2F;DrijkoningenLAL14</a>
+                </div>
+                <p>This paper describes the development and validation of a smartphone application designed to distinguish between normal heart rhythms and premature ectopic beats. Using Photoplethysmography (PPG)—measuring blood flow changes via the phone's camera—researchers tested an algorithm on 28 volunteers in a controlled hospital setting. By comparing the smartphone data to a reference ECG, the study proved that the app could accurately identify irregularities and differentiate premature beats based on timing intervals. Ultimately, the research confirms that smartphones are capable of detecting specific cardiac arrhythmias beyond simple heart rate monitoring.</p>
+              </div>
+            </div>
+          </div>
+          <!-- HOBBIES -->
+          <div class="box">
+            <h2><i class="fas fa-heart ico"></i> Interests</h2>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  Sport
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "interest badge">Airsoft</span>
+                <span class= "interest badge">Kung-fu</span>
+              </div>
+            </div>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  3D Printing
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "interest badge">Designing</span>
+                <span class= "interest badge">Printing</span>
+              </div>
+            </div>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  Books
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "interest badge">Science Fiction</span>
+                <span class= "interest badge">Fantasy</span>
+                <span class= "interest badge">LitRPG</span>
+              </div>
+            </div>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  Games
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "interest badge">Video games</span>
+                <span class= "interest badge">Board games</span>
+                <span class= "interest badge">Dungeons & Dragons</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

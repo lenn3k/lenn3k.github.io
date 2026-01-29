@@ -1,0 +1,332 @@
+{
+  "meta": { "theme": "sidebar" },
+  "basics": {
+    "name": "Lenn Drijkoningen",
+    "label": "Software Engineer",
+    "email": "lenn.drijkoningen@outlook.com",
+    "summary": "Lenn is a motivated all-round developer with a passion for trying and learning new technologies. He likes getting his hands dirty with front-end development but is also not afraid to lend a hand in a back-end project. Due to his education in industrial engineering, Lenn has a wide background in programming. As an engineer he also has a great capacity for analytical thinking and problem solving. These skills are invaluable in larger software projects.",
+    "location": {
+      "address": "Schietboomstraat 8",
+      "postalCode": "3665",
+      "city": "As",
+      "countryCode": "BE"
+    },
+    "image": "./profile.jpg",
+    "phone": "+32 499 40 44 00"
+  },
+  "work": [
+    {
+      "name": "KBC",
+      "position": "Senior Front-End Developer",
+      "startDate": "2025-03-01",
+      "summary": "Working on the internal MyKate application for KBC employees. The application currently being used is a result of a POC and therefor has accumulated a lot technical debt. The goal is to rewrite the application from scratch while following the internal programming guidelines, design system and Figma designs as closely as possible. Also setting up a PWA version of the application to replace the end-of-life ionic ionic application.",
+      "highlights": [
+        "Rewriting entire application from scratch using Angular",
+        "Collaborating with designers to ensure the application follows the Figma designs",
+        "Improving existing features based on user feedback",
+        "Setup of first PWA for internal use at KBC"
+      ]
+    },
+    {
+      "name": "SMALS",
+      "position": "Senior Front-end Developer",
+      "startDate": "2024-03-01",
+      "endDate": "2025-03-01",
+      "summary": "Managed applications eMohm and eWZC used in elderly care by the Flemish government. The applications were outdated in terms of Angular version and visual appearance. Both applications, eMohm and eWZC, have been rewritten to the latest Angular version and conform to the most recent Flanders styleguide. All tests have been migrated.",
+      "highlights": [
+        "Upgrading the Angular versions of these applications",
+        "Implementing front-end tooling such as Prettier and linting",
+        "Adapting the style to the most recent Flanders styleguide",
+        "Adding new features",
+        "Migrating from Selenium tests to Cypress",
+        "Expanding Cypress tests"
+      ]
+    },
+    {
+      "name": "KBC",
+      "position": "Senior Front-End Developer",
+      "startDate": "2023-06-01",
+      "endDate": "2024-12-31",
+      "summary": "Worked on MyKate, an in-house application for KBC employees. The latest addition was the HR section, allowing for job vacancy creation, candidate screening, and job application submission. Achieved a successful production release of MyKate featuring a more comprehensive HR section beyond the minimum viable product (MVP).",
+      "highlights": [
+        "Developing new pages",
+        "Creating both dumb and smart components",
+        "Integrating new pages and components with the ngrx store",
+        "Training and supporting new team members"
+      ]
+    },
+    {
+      "name": "MijnGezondheid",
+      "position": "Front-end Developer",
+      "startDate": "2023-04-01",
+      "endDate": "2023-06-30",
+      "summary": "Mijn Gezondheid is the government's platform for health-related matters for Belgian citizens. Developed a design system using Storybook for documentation and StencilJS for components to ensure consistency and third-party integration.",
+      "highlights": [
+        "Setup Storybook for documentation",
+        "Building basic components",
+        "Defining styles"
+      ]
+    },
+    {
+      "name": "KBC",
+      "position": "Front-end developer",
+      "startDate": "2020-02-01",
+      "endDate": "2022-03-31",
+      "summary": "As part of the core team, responsible for managing, maintaining, and updating in-house Angular libraries aligned with the design system. Improved the quality and consistency of user interfaces and delivered better results for clients.",
+      "highlights": [
+        "Writing testing wrappers for existing components",
+        "Updating and maintaining existing components",
+        "Writing new components",
+        "Library ownership",
+        "Writing schematics and build tools",
+        "Angular migrations on library level",
+        "Writing documentation for consumers",
+        "Writing an efficiency dashboard fed by a bitbucket scraper"
+      ]
+    },
+    {
+      "name": "The Sniffers",
+      "position": "Front-end developer",
+      "startDate": "2019-10-01",
+      "endDate": "2020-02-29",
+      "summary": "The Sniffers is a global service provider in emission reductions and pipeline integrity. Worked on the SFEMP application, an Angular 8 application, that monitors sites and installations for emissions.",
+      "highlights": [
+        "Prepare the application for release of version 4.0",
+        "Add new core features",
+        "Improve existing components for useability and accesibility",
+        "Increase the speed of the application"
+      ]
+    },
+    {
+      "name": "Engie Services Zuid",
+      "position": "Front-end developer",
+      "startDate": "2019-01-01",
+      "endDate": "2019-04-30",
+      "summary": "Contributed to a solution for creating and managing IOT infrastructures in buildings and sites, utilizing an Nrwl/NX mono repo with Angular 7+ front-end and a Nest API gateway. Responsible for building the client application and the Nest API.",
+      "highlights": [
+        "Building the client application",
+        "Building the Nest API for connecting to the back-end",
+        "Coaching and guidance of other junior front-end developers"
+      ]
+    },
+    {
+      "name": "Kind En Gezin",
+      "position": "Front-end developer",
+      "startDate": "2018-03-01",
+      "endDate": "2018-11-30",
+      "summary": "Developed 'Kariboe', a new Angular 6 application with a Spring Boot back-end, used to pay doctors providing services for 'Kind&Gezin'. The first version of the application was ready to be deployed to production.",
+      "highlights": [
+        "Development of a front-end single page application in Angular",
+        "Application built up out of modules for dynamism, easier development, and expansion"
+      ]
+    },
+    {
+      "name": "Nike",
+      "position": "Front-end developer",
+      "startDate": "2016-11-01",
+      "endDate": "2018-02-28",
+      "summary": "Responsible for rewriting several internal JSP applications into the Angular framework to improve efficiency and maintenance. Several functions have been converted and new applications created.",
+      "highlights": [
+        "Create Angular application to replace old JSP applications",
+        "Create a spring-boot gateway to communicate between legacy systems and the angular application",
+        "Create new applications in angular such as absence planner and monitoring tools",
+        "Adapting and enhancing legacy applications written in JAVA EE"
+      ]
+    },
+    {
+      "name": "Lidl",
+      "position": "Front-End Developer",
+      "startDate": "2016-10-01",
+      "endDate": "2016-10-31",
+      "summary": "Contributed to the creation of an internal digital magazine accessible only for employees, utilizing Angular2.",
+      "highlights": [
+        "Front-end development in Angular2",
+        "Creation of new components",
+        "Adaptation and improvement of existing components"
+      ]
+    },
+    {
+      "name": "Qompium",
+      "position": "CTO & Co-Founder",
+      "startDate": "2014-08-01",
+      "endDate": "2016-10-31",
+      "summary": "Co-founded a start-up to commercialize a heart rhythm disorder detection smartphone application developed during a master's thesis. The goal was to transform the standalone application into a complete platform for cardiologists and patients.",
+      "highlights": [
+        "iPhone development",
+        "Android development",
+        "Windows Phone Development",
+        "Signal processing",
+        "Front-end Maintenance",
+        "Company Presentations",
+        "Supervision over an Android freelancer and Junior Android Developer (last 3 months)",
+        "Aiding in the back-end development"
+      ]
+    },
+    {
+      "name": "Ziekenhuis Oost-Limburg",
+      "position": "All-Round Developer",
+      "startDate": "2014-02-01",
+      "endDate": "2014-07-31",
+      "summary": "Worked in the Mobile Health department, providing technical solutions for challenges and projects.",
+      "highlights": [
+        "Further refinement of master thesis results (smartphone application and signal processing)",
+        "Supervising and helping new master and bachelor students with their theses",
+        "Aiding Phd students and clinicians by providing technical solutions for their studies"
+      ]
+    },
+    {
+      "name": "Khlim Onderzoekscentrum",
+      "position": "PHP Developer",
+      "startDate": "2013-06-01",
+      "endDate": "2013-08-31",
+      "summary": "Refined the eHealth integration and optimized general functions of the LISTEL vzw platform following bachelor thesis work. Resulted in a more efficient and user-friendly platform.",
+      "highlights": [
+        "Refinement of the eHealth integration",
+        "Optimization of already existing general functions (forms, messaging...)"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universiteit Hasselt",
+      "area": "Industrial Sciences",
+      "studyType": "Master's ",
+      "endDate": "2014"
+    },
+    {
+      "institution": "Katholieke Hogeschool Limburg",
+      "area": "Industrial Sciences",
+      "studyType": "Bachelor's",
+      "endDate": "2013"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend",
+      "level": "Senior",
+      "keywords": [
+        "Angular",
+        "JavaScript/TypeScript",
+        "SCSS / CSS / BEM / Styled Components",
+        "HTML 5",
+        "JSON",
+        "RxJS / Redux / ngrx ",
+        "NodeJS / NPM / Yarn",
+        "Storybook",
+        "Stenciljs / lit",
+        "Bootstrap / Material Design",
+        "PHP"
+      ]
+    },
+    {
+      "name": "Backend",
+      "level": "Junior",
+      "keywords": [
+        "Springboot",
+        "Java",
+        "Maven",
+        "REST",
+        "C#",
+        "C++",
+        "Python",
+        "Objective-C",
+        "XAML",
+        "MongoDB",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "name": "Mobile Development",
+      "level": "Intermediate",
+      "keywords": [
+        "Angular PWA",
+        "Android (Java)",
+        "iOS (Swift/Objective-C)",
+        "Windows Mobile (C#)"
+      ]
+    },
+    {
+      "name": "Methodologies & Concepts",
+      "keywords": [
+        "Agile",
+        "Scrum",
+        "Unit testing",
+        "Design patterns",
+        "Object Oriented Programming (OO)",
+        "Microservices"
+      ]
+    },
+    {
+      "name": "Tools & Technologies",
+      "keywords": [
+        "IntelliJ IDEA",
+        "Visual Studio Code",
+        "Xcode",
+        "Cypress",
+        "Confluence",
+        "Jira",
+        "Git",
+        "Jenkins",
+        "Matlab",
+        "Adobe Illustrator",
+        "Adobe Photoshop",
+        "Google Analytics",
+        "MS Visio",
+        "MS Office",
+        "bash",
+        "Mac OS X",
+        "Copilot"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sport",
+      "keywords": ["Airsoft", "Kung-fu"]
+    },
+    {
+      "name": "3D Printing",
+      "keywords": ["Designing", "Printing"]
+    },
+    {
+      "name": "Books",
+      "keywords": ["Science Fiction", "Fantasy", "LitRPG"]
+    },
+    {
+      "name": "Games",
+      "keywords": ["Video games", "Board games", "Dungeons & Dragons"]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "SAFe 4 Certified Practitioner",
+      "issuer": "Ordina",
+      "date": "2021"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Dutch",
+      "fluency": "Native knowledge"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent knowledge"
+    },
+    {
+      "language": "French",
+      "fluency": "Basic knowledge"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Validation of a Smartphone-based Photoplethysmographic Beat Detection Algorithm for Normal and Ectopic Complexes",
+      "publisher": "Cinc 2014",
+      "releaseDate": "2014-09-07",
+      "url": "https://dblp.org/rec/conf/cinc/DrijkoningenLAL14",
+      "summary": "This paper describes the development and validation of a smartphone application designed to distinguish between normal heart rhythms and premature ectopic beats. Using Photoplethysmography (PPG)—measuring blood flow changes via the phone's camera—researchers tested an algorithm on 28 volunteers in a controlled hospital setting. By comparing the smartphone data to a reference ECG, the study proved that the app could accurately identify irregularities and differentiate premature beats based on timing intervals. Ultimately, the research confirms that smartphones are capable of detecting specific cardiac arrhythmias beyond simple heart rate monitoring."
+    }
+  ],
+
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json"
+}
