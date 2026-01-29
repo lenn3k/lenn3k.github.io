@@ -16,5 +16,6 @@
     "jsonresume-theme-kendall": "^0.2.0",
     "puppeteer": "^24.36.0",
     "resumed": "^6.1.0"
-  }
+  },
+  "packageManager": "yarn@4.12.0"
 }
