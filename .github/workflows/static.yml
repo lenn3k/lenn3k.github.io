@@ -33,11 +33,16 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Prepare deployment files
+        run: |
+          mkdir -p deploy
+          cp profile.jpg deploy/
+          cp resume.html deploy/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: '.'
+          # Upload only profile.jpg and index.html (renamed from resume.html)
+          path: "deploy"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
