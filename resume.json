@@ -12,7 +12,20 @@
       "countryCode": "BE"
     },
     "image": "./profile.jpg",
-    "phone": "+32 499 40 44 00"
+    "phone": "+32 499 40 44 00",
+    "url": "lenn3k.github.io",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "lenn3k",
+        "url": "https://github.com/lenn3k"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "lenn3k",
+        "url": "https://www.linkedin.com/in/lenn3k/"
+      }
+    ]
   },
   "work": [
     {
